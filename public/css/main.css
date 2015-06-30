@@ -1,0 +1,45 @@
+/*
+* main.css
+*
+*
+* Created by FSC Automated
+*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.md-lg {
+  font-size: 14.5vh;
+}
+
+.md-md {
+  font-size: 10vh;
+}
+
+.transparent {
+  color: transparent;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button:active {
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: transparent;
+}
+
+button:focus {
+  background-color: transparent;
+}

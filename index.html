@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StreameRemote</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#A81C23" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col s12 center-align">
+        <button class="material-icons md-lg" id="up">keyboard_arrow_up</button>
+      </div>
+    </div>
+    <div class="row center-align">
+      <div class="col s4 center-align">
+        <button class="material-icons md-lg" id="left">keyboard_arrow_left</button>
+      </div>
+      <div class="col s4 center-align">
+        <button class="material-icons md-lg" id="center">select_all</button>
+      </div>
+      <div class="col s4 center-align">
+        <button class="material-icons md-lg" id="right">keyboard_arrow_right</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 center-align">
+        <button class="material-icons md-lg" id="down">keyboard_arrow_down</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s4 center-align">
+        <button class="material-icons md-md" id="back">arrow_back</button>
+      </div>
+      <!-- <div class="col s4 center-align">
+        <i class="material-icons md-md transparent">arrow_back</i>
+      </div>
+      <div class="col s4 center-align">
+        <button class="material-icons md-md" id="back">arrow_back</button>
+      </div> -->
+    </div>
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </body>
+</html>
