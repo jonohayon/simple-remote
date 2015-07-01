@@ -8,6 +8,10 @@ io.on('connection', function (socket) {
   socket.on('click', function (dir) {
     robot.keyTap(dir)
   })
+  socket.on('string', function (str) {
+    robot.typeString(str)
+    robot.keyTap('enter')
+  })
 })
 app.use(express.static(__dirname + '/public'))
 app.get('/', function (req, res, next) {

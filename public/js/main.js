@@ -38,6 +38,20 @@
       socket.emit('click', 'escape')
       console.log('Clicked back!')
     })
+    document.querySelector('#keyboard').addEventListener('click', function () {
+      if (document.querySelector('#keyboard').innerHTML === 'keyboard') {
+        document.querySelector('#keyboard').innerHTML = 'keyboard_hide'
+      } else {
+        document.querySelector('#keyboard').innerHTML = 'keyboard'
+      }
+      document.querySelector('#inputDiv').classList.toggle('hide')
+    })
+    document.querySelector('#input').addEventListener('keyup', function (event) {
+      if (event.keyCode === 13) {
+        socket.emit('string', document.querySelector('#input').value)
+        document.querySelector('#input').value = ''
+      }
+    })
   } else {
     alert('Vibration API Not Supported :(')
   }
