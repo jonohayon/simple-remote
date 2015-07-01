@@ -13,5 +13,5 @@ Simple remote for media center programs. Built originally for http://youtube.com
 * Back button
 
 #To Do
-[] Chrome extension to get info about the show from Youtube TV
-[] Make keyboard integration better (add character by character typing)
+- [ ] Chrome extension to get info about the show from Youtube TV
+- [ ] Make keyboard integration better (add character by character typing)
