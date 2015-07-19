@@ -7,8 +7,8 @@ Simple remote for media center programs. Built originally for http://youtube.com
 ```
 
 #Works on
-* http://youtube.com/tv
-* XBMC
+* Youtube's TV Interface (http://youtube.com/tv)
+* XBMC / Kodi (http://kodi.tv)
 
 #####Found more programs that this tool works on? Open an issue with it's name in the title and I'll add it to here
 
